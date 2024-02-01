@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero
+{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.bio
+{
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 7%;
+    align-content: center;
+}
+
+.bio h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.bio h1 span, h2 span
+{
+    color: rgb(6, 117, 80);
+}
+
+.bio h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.bio h3
+{
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.image 
+{
+    width: 30%;
+    height: 400px;
+    right: 50%;
+    margin-right: 10%;
+    background-color: aquamarine;
+    border-radius: 20em;
+}
+
+.me
+{
+    height: 400px;
+    margin-top: 30%;
+    top: 400%;
+    margin-right: 10%;
+    border-radius: 20em;
+}
+
+.form
+{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(39, 245, 176);
+    padding: 40px;
+}
+
+.form h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form h1 span
+{
+    font-size: larger;
+    color: white;
+}
+
+.Sign
+{
+    align-items: center;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 2em;
+    font-size: 120%;
+    cursor: pointer;
+    border: 0;
+}
+
+.skills
+{
+    margin-left: 20px;
+}
+
+input
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(46, 43, 43);
+    padding: 2px 10px;
+    width: 200px;
+    border-radius: 2rem;
+}
+
+table, td, th
+{
+    border: 3px solid black;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+//*border-collapse: collapse;*//
+}
+
+//*media query*//
+
+@media screen and (min-width: 280px)
